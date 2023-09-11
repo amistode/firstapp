@@ -37,7 +37,7 @@ export default function Index() {
 
   const emptyMarkup = QRCodes.length ? null : (
     <EmptyState
-      heading="Create unique QR codes for your product"
+      heading="Create unique 1QR codes for your product"
       action={{
         content: "Create QR code",
         onAction: () => navigate("qrcodes/new"),
